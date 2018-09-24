@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+while read n; do 
+ if [[ "${n:0:1}" == "-" ]]; then 
+  echo "${n}" | sed 's/^\-//'
+ else 
+  echo "-${n}"
+  fi
+ done
+

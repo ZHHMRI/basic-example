@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+while read n; do
+ if [[ "${n}" == "10" ]]; then
+  echo "CORRECT"
+ else
+  echo "LESS CORRECT"
+  fi
+ done
+

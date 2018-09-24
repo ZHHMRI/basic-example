@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+while read n; do echo "$(( 22 + ${n} ))"; done
+
